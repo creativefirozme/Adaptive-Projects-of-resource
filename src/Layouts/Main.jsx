@@ -9,7 +9,7 @@ const Main = () => {
   const noHeaderFooter = location.pathname.includes('login') || location.pathname.includes('register');
 
   return (
-    <div draggable="false">
+    <div draggable="false max-w-screen-xl mx-auto">
       {noHeaderFooter || <NavBar />}
       <Outlet />
       {/* {noHeaderFooter || <Footer />} */}

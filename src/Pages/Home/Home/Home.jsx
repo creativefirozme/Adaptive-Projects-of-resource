@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 
 const Home = () => {
     return (
-        <div className='mx-auto'>
+        <div className='max-w-screen-xl mx-auto'>
             <Helmet>
                 <title>hello Home</title>
             </Helmet>
